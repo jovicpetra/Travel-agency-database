@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0F3A8EE3-8BE4-EB24-5731-5375A7D0BD54" name="Agencija">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 08:53:13 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Naza" id="B52DE2D8-7F1F-A879-4994-DC0C2F7D9EA7">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 08:53:38 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Adra" id="89854A83-17D0-A1CA-3A3E-9E41FA01D508">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 08:55:18 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Brta" id="F60A15ED-5EEC-F71E-A16E-E864D7799DB6">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 08:55:44 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E0250146-561E-3E07-4E50-578B127BB090" name="Agencija PK">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 08:55:06 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B52DE2D8-7F1F-A879-4994-DC0C2F7D9EA7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

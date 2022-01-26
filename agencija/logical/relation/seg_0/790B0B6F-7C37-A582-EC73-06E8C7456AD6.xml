@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="iznajmljuje" directorySegmentName="seg_0" id="790B0B6F-7C37-A582-EC73-06E8C7456AD6">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 10:47:52 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<sourcePk>7D33B8B0-0294-F8F8-005C-2ECEB84DF4F4</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8B78767D-0FDA-7606-0138-37B09F0F5E6A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FFF9570E-9D06-156C-51A7-17A455CB5747</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

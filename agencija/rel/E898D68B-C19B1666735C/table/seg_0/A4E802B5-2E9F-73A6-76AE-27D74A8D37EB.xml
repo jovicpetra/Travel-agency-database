@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A4E802B5-2E9F-73A6-76AE-27D74A8D37EB" name="Kompanija_za_prevoz">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>A82C8EE5-6B9C-6344-E3B3-E36E2ADF068B</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nazk" id="73C84CD1-440C-88BE-DF82-94B521933B0D">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>CB7AEC3B-07C7-B10C-AEA6-8E65CC47DC1E</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="192233AC-AD63-99E3-1B25-9598613B1E5E" referredColumn="BA29E2B5-3211-C055-CA34-12884A8B6773"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D5A2F60-3C03-EC57-FEDE-7675DD90D831" name="Kompanija_za_prevoz_PK">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>00BF51C1-DFBD-919B-8F9C-B3F6789EAD8D</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73C84CD1-440C-88BE-DF82-94B521933B0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49B61ADB-9285-C388-5944-A57AE5373F87" name="Kompanija_FK">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>AE689C5E-EC39-E3BD-BBF8-CB24D43CF5E8</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73C84CD1-440C-88BE-DF82-94B521933B0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

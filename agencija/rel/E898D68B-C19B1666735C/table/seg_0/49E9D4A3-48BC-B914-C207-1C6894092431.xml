@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="49E9D4A3-48BC-B914-C207-1C6894092431" name="Agencija">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>0F3A8EE3-8BE4-EB24-5731-5375A7D0BD54</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Naza" id="C879F7F8-4FEF-97A5-4543-834F77F6311B">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>B52DE2D8-7F1F-A879-4994-DC0C2F7D9EA7</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adra" id="47E6051F-1F54-8FF4-0E31-BFCFEC6ACAFE">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>89854A83-17D0-A1CA-3A3E-9E41FA01D508</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Brta" id="FB963186-6851-2E14-AEC5-F322FCF7B221">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>F60A15ED-5EEC-F71E-A16E-E864D7799DB6</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B1E8A157-5711-B0F7-8788-E44EF81A43C6" name="Agencija_PK">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>E0250146-561E-3E07-4E50-578B127BB090</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C879F7F8-4FEF-97A5-4543-834F77F6311B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

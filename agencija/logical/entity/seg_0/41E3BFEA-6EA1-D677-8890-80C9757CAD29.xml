@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="41E3BFEA-6EA1-D677-8890-80C9757CAD29" name="Kompanija">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 09:06:18 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>52DE1293-B3D2-D3EC-AEDF-6DC726789449</discriminatorAttributeID>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nazk" id="CB7AEC3B-07C7-B10C-AEA6-8E65CC47DC1E">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 09:15:17 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Adrk" id="1D7313B6-5EAD-80F7-5C8A-EC65472EFA29">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 09:15:32 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Brtk" id="9659E23E-2FB6-9C8C-F92B-60A438F4048E">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 09:15:51 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipk" id="52DE1293-B3D2-D3EC-AEDF-6DC726789449">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 09:18:06 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A9B603A7-C134-7CB4-CEC8-F64FA54507F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GlavnaId" id="D1D43F1B-9027-032A-3C3B-AE6DEAC0CD75">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 11:42:19 UTC</createdTime>
+<generatorID>EE8718F7-49CF-FAC4-3B69-B8AB99A8F1E3</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>CB7AEC3B-07C7-B10C-AEA6-8E65CC47DC1E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="00BF51C1-DFBD-919B-8F9C-B3F6789EAD8D" name="Kompanija PK">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 09:15:30 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CB7AEC3B-07C7-B10C-AEA6-8E65CC47DC1E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

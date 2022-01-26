@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2782C6A9-B1D1-7A20-9E55-8BD9CE16F520" name="Angazovani vodic">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 10:49:27 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="VodicId" id="5EF7C4D1-98FE-4539-49F4-38FD77A63F40">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 11:51:17 UTC</createdTime>
+<generatorID>E30E55DE-47F0-AB3F-84C2-20AE8407125F</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<referedAttribute>6EE12D58-5DE8-1A2B-E559-B2A055DA8369</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AranzmanId" id="F0CC7D6D-5DB0-99B4-C33C-4DFB68A7412E">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 11:52:56 UTC</createdTime>
+<generatorID>A67AB7F8-DA20-145C-84FD-50351E075C67</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<referedAttribute>952F5424-E5B8-C346-A838-7C5820E9DE0F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AgencijaId" id="28FF108C-9659-3AB3-1033-891914FF68C6">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 11:52:56 UTC</createdTime>
+<generatorID>A67AB7F8-DA20-145C-84FD-50351E075C67</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<referedAttribute>F5826FBB-3658-9674-54C4-6B45C2F51FF2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jmbgrad" id="62954B9A-632C-DCCC-30A2-438F6276DFEB">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-20 10:37:27 UTC</createdTime>
+<generatorID>2F7DE007-D13D-F287-1A23-355C24F7CC76</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<referedAttribute>6EE12D58-5DE8-1A2B-E559-B2A055DA8369</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="470A1C5E-0F82-5ED7-3E03-5F2D442F4E75" name="Angazovani vodic PK">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 11:02:06 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5EF7C4D1-98FE-4539-49F4-38FD77A63F40</attributeRef>
+<attributeRef>62954B9A-632C-DCCC-30A2-438F6276DFEB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

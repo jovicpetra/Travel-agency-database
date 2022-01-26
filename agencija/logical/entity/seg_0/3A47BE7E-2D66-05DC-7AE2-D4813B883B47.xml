@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A47BE7E-2D66-05DC-7AE2-D4813B883B47" name="Rezervacija">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 09:02:12 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Idrez" id="D79D2C80-99C6-CE5B-F794-8062E3D5896F">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 09:02:22 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Brsj" id="05CFF8DC-1289-63CD-614E-C6DE93D9D3FC">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 09:02:38 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Brso" id="1E14657D-BACA-1C32-0800-C144F1E63FE9">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 09:02:59 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datrez" id="C0EEF15A-3F87-1F16-01AD-0A8C94DC9016">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 09:03:30 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KlijentId" id="760CD954-F069-D098-228F-A7A1D19B0B74">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 09:41:21 UTC</createdTime>
+<generatorID>DCAF6B25-4AD6-ADE6-A2E3-94F7BA5B33D2</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<referedAttribute>01ADDDA9-F3FE-0730-6908-7FEB822E5FDD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AranzmanId" id="483C8CEA-EFDB-C59B-844F-B9609070D26F">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 09:43:18 UTC</createdTime>
+<generatorID>04148B33-71CB-DD91-66AA-1F51E32BB37F</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<referedAttribute>952F5424-E5B8-C346-A838-7C5820E9DE0F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AgencijaId" id="E1F2C9F0-6B16-7485-DF4A-DE337ABF05A1">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 09:43:18 UTC</createdTime>
+<generatorID>04148B33-71CB-DD91-66AA-1F51E32BB37F</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<referedAttribute>F5826FBB-3658-9674-54C4-6B45C2F51FF2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1CB81CDC-2D35-90A8-7F60-9C0A1E4D9800" name="Rezervacija PK">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 09:02:36 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D79D2C80-99C6-CE5B-F794-8062E3D5896F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

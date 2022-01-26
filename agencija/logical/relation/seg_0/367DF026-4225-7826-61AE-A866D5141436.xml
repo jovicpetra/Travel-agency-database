@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="obuhvata" directorySegmentName="seg_0" id="367DF026-4225-7826-61AE-A866D5141436">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 10:50:41 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<sourcePk>CCEB4BA9-9C23-334B-C25D-851FD921A53C</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>25227BA2-8666-D559-138C-53C5EEED8478</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A620BA8D-1253-F1C0-B69B-31812D895F29</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

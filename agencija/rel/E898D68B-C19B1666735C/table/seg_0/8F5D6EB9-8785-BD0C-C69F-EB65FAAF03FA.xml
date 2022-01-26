@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F5D6EB9-8785-BD0C-C69F-EB65FAAF03FA" name="Angazovani_vodic">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>2782C6A9-B1D1-7A20-9E55-8BD9CE16F520</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VodicId" id="658958CB-7E7D-2928-8F90-8DCD5D7FEE8A">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>5EF7C4D1-98FE-4539-49F4-38FD77A63F40</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0AE4F147-A8F0-B414-5111-4E8B032A7C17" referredColumn="DB91F038-7FB5-C4CF-54EF-DE18A172F1F5"/>
+</associations>
+</Column>
+<Column name="AranzmanId" id="F040DE30-7130-8FC5-1293-3B5710E0CE45">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>F0CC7D6D-5DB0-99B4-C33C-4DFB68A7412E</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FFE1B3E1-4D97-AF67-C96F-F7B6E3F46F9F" referredColumn="653236E2-0377-2B82-1854-1934C8BB4E2C"/>
+</associations>
+</Column>
+<Column name="AgencijaId" id="3BB77848-A13D-2639-71C6-E22B64962EB2">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>28FF108C-9659-3AB3-1033-891914FF68C6</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FFE1B3E1-4D97-AF67-C96F-F7B6E3F46F9F" referredColumn="5860F7AE-CCE4-EA3D-75F0-EE0B1C9505FF"/>
+</associations>
+</Column>
+<Column name="KoordinatorId" id="C6DB6EA1-F644-52C6-F424-01ED75EEF452">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-20 10:42:52 UTC</createdTime>
+<generatorID>62954B9A-632C-DCCC-30A2-438F6276DFEB</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED70B1C3-2CE3-5C4D-2A9C-A1B92E9766BD" referredColumn="F0E49BCB-95D5-F755-ED07-4458CAB1085B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F2A556F-2BDE-10C9-48F6-0AE78223B9EF" name="Angazovani_vodic_PK">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>470A1C5E-0F82-5ED7-3E03-5F2D442F4E75</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="658958CB-7E7D-2928-8F90-8DCD5D7FEE8A"/>
+<colUsage columnID="C6DB6EA1-F644-52C6-F424-01ED75EEF452"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA40A19D-D3B7-03A9-E2B3-EB96B5172E84" name="Angazovani_vodic_Vodic_FK">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>E30E55DE-47F0-AB3F-84C2-20AE8407125F</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="658958CB-7E7D-2928-8F90-8DCD5D7FEE8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05C67994-7BD3-D681-1524-7D707E47AAF0" name="Angazovani_vodic_Aranzman_FK">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>A67AB7F8-DA20-145C-84FD-50351E075C67</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F040DE30-7130-8FC5-1293-3B5710E0CE45"/>
+<colUsage columnID="3BB77848-A13D-2639-71C6-E22B64962EB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04359D30-7ED4-2BB1-FC91-D9E2DFA61D5F" name="Angazovani_vodic_Koor_FK">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-20 10:42:52 UTC</createdTime>
+<generatorID>2F7DE007-D13D-F287-1A23-355C24F7CC76</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6DB6EA1-F644-52C6-F424-01ED75EEF452"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

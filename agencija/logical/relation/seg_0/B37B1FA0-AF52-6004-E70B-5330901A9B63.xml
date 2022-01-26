@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="vozi" directorySegmentName="seg_0" id="B37B1FA0-AF52-6004-E70B-5330901A9B63">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 10:56:31 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<sourcePk>EDE53D1B-974A-0B4F-F01F-C21E106A71FA</sourcePk>
+<targetPk>45C83C15-8605-9580-DDB8-6796D715BDBE</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>FFF9570E-9D06-156C-51A7-17A455CB5747</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>CA670BE7-F5ED-B985-DF64-E6C47AABEF4B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

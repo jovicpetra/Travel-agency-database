@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB6AEAFB-7DED-11C0-7B96-F409713A04B2" name="Rezervacija">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>3A47BE7E-2D66-05DC-7AE2-D4813B883B47</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Idrez" id="9F8C695F-3D29-27FD-07DF-AF039E65700F">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>D79D2C80-99C6-CE5B-F794-8062E3D5896F</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Brsj" id="342A8FE7-1031-AA6A-7335-959BE00DFB8E">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>05CFF8DC-1289-63CD-614E-C6DE93D9D3FC</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Brso" id="278B92DF-2EEE-6A44-25F3-E4AA5D6E1739">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>1E14657D-BACA-1C32-0800-C144F1E63FE9</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datrez" id="D945D377-CAF8-D74C-6CE1-D74F870E36BD">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>C0EEF15A-3F87-1F16-01AD-0A8C94DC9016</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KlijentId" id="7FB11FFC-7356-3018-5FCE-F117AFB33112">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>760CD954-F069-D098-228F-A7A1D19B0B74</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8459492-BCB5-42F3-3196-F900005E21D0" referredColumn="A405FC45-CCDA-6A88-A750-CE816D8B3ED6"/>
+</associations>
+</Column>
+<Column name="AranzmanId" id="3660F63B-4B0B-886C-FEE1-924B740BD959">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>483C8CEA-EFDB-C59B-844F-B9609070D26F</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="45859B3C-2439-E069-3155-63AC2C954ECF" referredColumn="653236E2-0377-2B82-1854-1934C8BB4E2C"/>
+</associations>
+</Column>
+<Column name="AgencijaId" id="678817F5-07F0-AF85-0116-6EA02B4C4239">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>E1F2C9F0-6B16-7485-DF4A-DE337ABF05A1</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="45859B3C-2439-E069-3155-63AC2C954ECF" referredColumn="5860F7AE-CCE4-EA3D-75F0-EE0B1C9505FF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90F30C4B-EE48-6A79-A416-161DC669A780" name="Rezervacija_PK">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>1CB81CDC-2D35-90A8-7F60-9C0A1E4D9800</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F8C695F-3D29-27FD-07DF-AF039E65700F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E78C391-4859-443F-FD3B-604FAFE2998D" name="Rezervacija_Klijent_FK">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>DCAF6B25-4AD6-ADE6-A2E3-94F7BA5B33D2</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FB11FFC-7356-3018-5FCE-F117AFB33112"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15845BF2-FCC1-96F4-27A5-DF30644E3148" name="Rezervacija_Aranzman_FK">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>04148B33-71CB-DD91-66AA-1F51E32BB37F</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3660F63B-4B0B-886C-FEE1-924B740BD959"/>
+<colUsage columnID="678817F5-07F0-AF85-0116-6EA02B4C4239"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

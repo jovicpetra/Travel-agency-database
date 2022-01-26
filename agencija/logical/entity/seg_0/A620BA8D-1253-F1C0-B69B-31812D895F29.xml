@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A620BA8D-1253-F1C0-B69B-31812D895F29" name="Zakup smjestaja">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 10:44:19 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Datpzs" id="CC7C1709-0869-1A79-FF4A-5DB6BFBA4FEC">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 10:44:33 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datkzs" id="D1671D39-CF9E-B933-ABCD-27D42C45199D">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 10:44:45 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SmjestajId" id="95D99A2B-0FC2-E9EC-0D74-9766887B718C">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 10:50:41 UTC</createdTime>
+<generatorID>367DF026-4225-7826-61AE-A866D5141436</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<referedAttribute>8CC1BEA8-4AD5-3E31-96EC-93E1FA9A28AD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KompanijaId" id="A6787B3B-8E9D-11B4-EAE2-B7B7D949160E">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 10:50:41 UTC</createdTime>
+<generatorID>367DF026-4225-7826-61AE-A866D5141436</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<referedAttribute>E771720A-223A-0C20-C768-8144C398E458</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AranzmanId" id="FBFA36F3-9FE2-82DA-759C-14EF5772B7C7">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 10:57:43 UTC</createdTime>
+<generatorID>3D15EED4-3F2A-74B8-DB48-5B0737AC9D7D</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<referedAttribute>952F5424-E5B8-C346-A838-7C5820E9DE0F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AgencijaId" id="8E85C81C-BF37-C2C7-83E2-CC4A40A2C39E">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 10:57:43 UTC</createdTime>
+<generatorID>3D15EED4-3F2A-74B8-DB48-5B0737AC9D7D</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<referedAttribute>F5826FBB-3658-9674-54C4-6B45C2F51FF2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jmbgrad" id="931BAC3E-A941-5588-4ABC-E10611E62816">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-20 10:37:17 UTC</createdTime>
+<generatorID>85A9B2D1-F4D9-C433-B34A-45A43659E34E</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<referedAttribute>6EE12D58-5DE8-1A2B-E559-B2A055DA8369</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="64D507B8-C5C8-3ED5-9F37-7155D99366ED" name="Zakup smjestaja PK">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 10:50:53 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>95D99A2B-0FC2-E9EC-0D74-9766887B718C</attributeRef>
+<attributeRef>A6787B3B-8E9D-11B4-EAE2-B7B7D949160E</attributeRef>
+<attributeRef>931BAC3E-A941-5588-4ABC-E10611E62816</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

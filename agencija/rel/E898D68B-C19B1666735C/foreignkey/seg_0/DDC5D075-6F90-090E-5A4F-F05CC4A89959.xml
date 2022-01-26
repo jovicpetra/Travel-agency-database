@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DDC5D075-6F90-090E-5A4F-F05CC4A89959" containerWithKeyObject="1588717D-1EC6-A889-2C57-E08C6E7604A5" localFKIndex="8666695D-7641-4F1F-986B-3322E5D054A1" name="Zakup_smjestaja_Koordinator_FK">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-20 10:42:52 UTC</createdTime>
+<generatorID>85A9B2D1-F4D9-C433-B34A-45A43659E34E</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<referredTableLongName>Koordinator</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0AF2A8F4-5D82-8C17-3A64-30816B722AA4</referredTableID>
+<keyObject>9B74079E-E192-6670-1672-789963549AAA</keyObject>
+<referredKeyID>9B74079E-E192-6670-1672-789963549AAA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Jmbgrad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

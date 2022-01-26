@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="C6F8CA9B-1284-6FC5-B5DF-C558DA925603">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 08:51:38 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

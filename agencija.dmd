@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="agencija" id="258ACE46-58C8-B796-C55C-60666782886F" version="3.5">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 08:51:37 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>258ACE46-58C8-B796-C55C-60666782886F</designId>
+</OSDM_Design>

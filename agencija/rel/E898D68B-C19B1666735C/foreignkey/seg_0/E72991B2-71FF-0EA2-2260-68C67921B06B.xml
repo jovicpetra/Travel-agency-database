@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E72991B2-71FF-0EA2-2260-68C67921B06B" containerWithKeyObject="0AF2A8F4-5D82-8C17-3A64-30816B722AA4" localFKIndex="4C2606E8-C929-4A2F-5E76-033C4461D983" name="Koordinator_Radnik_FK">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>9D8B07E3-5DD6-92B5-F050-C028EE1358C6</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<referredTableLongName>Radnik</referredTableLongName>
+<arc>A5F8C57F-CE00-33C9-A749-A8B47876C05F</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5568B7E6-C0E9-2594-E785-ABFD844C9916</referredTableID>
+<keyObject>DDF872DB-A622-93ED-0686-4AA4FAB5D597</keyObject>
+<referredKeyID>DDF872DB-A622-93ED-0686-4AA4FAB5D597</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Jmbgrad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Koordinator</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

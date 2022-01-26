@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0AE4F147-A8F0-B414-5111-4E8B032A7C17" containerWithKeyObject="8F5D6EB9-8785-BD0C-C69F-EB65FAAF03FA" localFKIndex="DA40A19D-D3B7-03A9-E2B3-EB96B5172E84" name="Angazovani_vodic_Vodic_FK">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>E30E55DE-47F0-AB3F-84C2-20AE8407125F</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<referredTableLongName>Vodic</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FB58B873-6D7C-4BF5-A29E-2EAB14E1C3DD</referredTableID>
+<keyObject>29CE599F-D73C-0095-D191-C690C9376233</keyObject>
+<referredKeyID>29CE599F-D73C-0095-D191-C690C9376233</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Jmbgrad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

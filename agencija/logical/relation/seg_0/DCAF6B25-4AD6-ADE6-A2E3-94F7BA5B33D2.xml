@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pravi" directorySegmentName="seg_0" id="DCAF6B25-4AD6-ADE6-A2E3-94F7BA5B33D2">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 09:40:29 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<sourcePk>E3AC0373-B249-2F05-8F4C-068C24575582</sourcePk>
+<targetPk>1CB81CDC-2D35-90A8-7F60-9C0A1E4D9800</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0E4CA1C4-478D-0E80-4EB5-5404E96F1C36</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3A47BE7E-2D66-05DC-7AE2-D4813B883B47</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

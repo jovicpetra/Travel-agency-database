@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="saradjuje" directorySegmentName="seg_0" id="EE8718F7-49CF-FAC4-3B69-B8AB99A8F1E3">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 11:42:19 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<targetPk>00BF51C1-DFBD-919B-8F9C-B3F6789EAD8D</targetPk>
+<identifying>false</identifying>
+<nameOnSource>je glavna</nameOnSource>
+<nameOnTarget>je saradnik</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>41E3BFEA-6EA1-D677-8890-80C9757CAD29</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>41E3BFEA-6EA1-D677-8890-80C9757CAD29</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

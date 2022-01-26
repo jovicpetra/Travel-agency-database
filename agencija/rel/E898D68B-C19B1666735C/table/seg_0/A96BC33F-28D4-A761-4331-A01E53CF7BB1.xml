@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A96BC33F-28D4-A761-4331-A01E53CF7BB1" name="ima">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AgencijaId" id="2773059F-F187-3092-3754-A79D74C4236B">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D759CBEB-B875-7BAE-6E7A-91BCF88ED570" referredColumn="C879F7F8-4FEF-97A5-4543-834F77F6311B"/>
+</associations>
+</Column>
+<Column name="KlijentId" id="DE3FFF0B-208B-06E9-D5D9-CF7C05BCB4FB">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C564D7CD-08A4-B6B1-8BC8-27F9061FFB6E" referredColumn="A405FC45-CCDA-6A88-A750-CE816D8B3ED6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED15753A-07BA-858C-E0A3-004B91613193" name="ima_PK">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2773059F-F187-3092-3754-A79D74C4236B"/>
+<colUsage columnID="DE3FFF0B-208B-06E9-D5D9-CF7C05BCB4FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D69CFA03-998E-4D0E-9B41-AECF28DFC1FA" name="ima_Agencija_FK">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>2B2FDADF-9B2E-1340-F903-6A16B79D3323</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2773059F-F187-3092-3754-A79D74C4236B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E4911B6-AE7C-7212-0C3A-BF1B9CC9ACB8" name="ima_Klijent_FK">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>2B2FDADF-9B2E-1340-F903-6A16B79D3323</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE3FFF0B-208B-06E9-D5D9-CF7C05BCB4FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

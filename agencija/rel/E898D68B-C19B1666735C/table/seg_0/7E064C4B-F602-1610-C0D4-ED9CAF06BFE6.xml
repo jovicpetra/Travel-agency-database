@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E064C4B-F602-1610-C0D4-ED9CAF06BFE6" name="posluje">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AgencijaId" id="205D78D2-A605-B218-6C4C-59B9DC76B0D7">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3EAD9043-EED1-1764-5F85-6799C3801704" referredColumn="C879F7F8-4FEF-97A5-4543-834F77F6311B"/>
+</associations>
+</Column>
+<Column name="KompanijaId" id="4C33EC2C-783B-1C4B-6112-82E4E1D8CF2D">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4988FAEA-14AB-5D0F-CEDD-960D15CE10A6" referredColumn="BA29E2B5-3211-C055-CA34-12884A8B6773"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9EF8A9A0-D586-A4F3-4768-C50B7DEFE489" name="posluje_PK">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="205D78D2-A605-B218-6C4C-59B9DC76B0D7"/>
+<colUsage columnID="4C33EC2C-783B-1C4B-6112-82E4E1D8CF2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCCDB172-E3A1-C088-B142-CE1CB87509C8" name="posluje_Agencija_FK">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>0AB8981F-7840-B441-74CD-615FE647D2EC</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="205D78D2-A605-B218-6C4C-59B9DC76B0D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF30CB10-98F3-7564-0D71-C676B1E5ECE9" name="posluje_Kompanija_FK">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-13 07:54:09 UTC</createdTime>
+<generatorID>0AB8981F-7840-B441-74CD-615FE647D2EC</generatorID>
+<ownerDesignName>agencija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C33EC2C-783B-1C4B-6112-82E4E1D8CF2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

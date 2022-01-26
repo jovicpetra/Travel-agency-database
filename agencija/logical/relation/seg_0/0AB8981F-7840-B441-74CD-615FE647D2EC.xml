@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="posluje" directorySegmentName="seg_0" id="0AB8981F-7840-B441-74CD-615FE647D2EC">
+<createdBy>jovic</createdBy>
+<createdTime>2022-01-12 09:32:32 UTC</createdTime>
+<ownerDesignName>agencija</ownerDesignName>
+<engineerTo>
+<item key="E898D68B-0354-519E-ABAA-C19B1666735C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>0F3A8EE3-8BE4-EB24-5731-5375A7D0BD54</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>41E3BFEA-6EA1-D677-8890-80C9757CAD29</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
